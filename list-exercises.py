@@ -1,3 +1,4 @@
+"""Retrieve the names of all the exercises I did and how many times I did them"""
 from pathlib import Path
 
 import pandas as pd
