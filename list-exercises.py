@@ -39,5 +39,7 @@ if __name__ == "__main__":
             count[lift] = 1
 
     for lift in count:
-        if count[lift] <= max_count:
+        if argc == 2:
+            print(lift, count[lift])
+        elif count[lift] <= max_count:
             print(lift, count[lift])
